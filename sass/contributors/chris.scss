@@ -1,0 +1,110 @@
+@media only screen and (max-width: 500px) {
+
+   header {
+       width: 383px;
+       margin: 0 auto;
+
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+   }
+
+   nav {
+       width: 330px;
+       height: 1.5em;
+       margin: 9px 0 52px 0;
+
+       p {
+        font-family: Rubik;
+        font-size: 12px;
+        line-height: 14px;
+        letter-spacing: -1px;
+        
+        color: #1F1F1F;
+       }      
+   }
+
+   .headerContainer {
+        width: 330px;
+
+        .headerText {
+            p:first-of-type {
+                font-weight: 700;
+                font-size: 10px;
+                text-align: center;
+                text-transform: uppercase;
+                letter-spacing: 2.8125px;
+    
+                color: #666666;
+            }
+
+            h1 {
+                margin: 16px 0;
+                font-weight: 700;
+                font-size: 40px;
+                line-height: 45px;
+                text-align: center;
+                letter-spacing: -4px;
+
+                color: #1F1F1F;
+            }
+    
+            p:last-of-type {
+                font-size: 15px;
+                line-height: 25px;
+                text-align: center;
+                letter-spacing: -0.4px;
+
+                color: #666666;
+            }
+        }
+
+        .form {
+            margin: 24px auto;
+            height: 28px;
+
+            display: flex;
+            justify-content: center;
+            gap: 7px;
+
+            input:first-child {
+                width: 134px;
+                height: 28px;
+                margin-bottom: 16px;
+                padding-left: 11.59px;
+
+                font-size: 12px;
+                line-height: 14px;
+
+                border: none;
+                border-radius: 5px;
+
+                background-color: lightcyan;
+            }
+
+            input:last-child {
+                width: 101px;
+                height: 28px;
+                align-self: center;
+
+                border: none;
+                border-radius: 5px;
+
+                background-color: #FC593B;
+                color: #fff;
+            }
+        }
+
+        .headerFoot {
+            text-align: center;
+
+            p {
+                margin-bottom: 64px;
+                font-size: 10px;
+                letter-spacing: -0.32381px;
+
+                color: #878B90;
+            }
+        }
+   }
+}
