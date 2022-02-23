@@ -1,4 +1,4 @@
-@media only screen and (min-width: 500px),(max-width: 500px) {
+@media only screen and (max-width: 500px) {
 
    header {
        width: 383px;
@@ -29,10 +29,13 @@
            background-repeat: no-repeat;
            background-size: contain;
        }
-
+       
+       // main container of shades logo 
+       // (better quality with svg)
        .shadesLogo {
            transform: scale(1.5);
-            
+         
+        // first part of shades logo
         .logoShapeOne {
             background-image: url(/assets/images/test/test.svg);
             width: 9.52px;
@@ -42,6 +45,7 @@
             top: 1.5px;
         }
 
+        // second part of shades logo
         .logoShapeTwo {
             background-image: url(/assets/images/test/Path2.svg);
             width: 9.52px;
@@ -51,6 +55,7 @@
             top: 5.54px;
         }
 
+        // last part of shades logo
         .logoShapeTree {
             background-image: url(/assets/images/test/Path2.svg);
             width: 9.52px;

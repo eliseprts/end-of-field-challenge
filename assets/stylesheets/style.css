@@ -4,7 +4,7 @@ body {
   font-weight: 400;
 }
 
-@media only screen and (min-width: 500px), (max-width: 500px) {
+@media only screen and (max-width: 500px) {
   header {
     width: 383px;
     margin: 0 auto;
@@ -125,6 +125,59 @@ body {
     font-size: 10px;
     letter-spacing: -0.32381px;
     color: #878B90;
+  }
+}
+@media only screen and (max-width: 500px) {
+  footer {
+    margin: 38px auto 0 auto;
+    width: 330px;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+  }
+  footer .footerMain {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 35px;
+  }
+  footer .footerMain .footerParagraph {
+    height: 84px;
+    font-size: 13px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #666666;
+  }
+  footer .footerMain .socialNetworkIcons ul {
+    display: flex;
+    gap: 12px;
+  }
+  footer .footerMain .socialNetworkIcons ul img {
+    width: 14px;
+    height: 14px;
+  }
+  footer .footerLinks .menuLinks h4 {
+    margin-bottom: 15px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #666666;
+  }
+  footer .footerLinks .menuLinks ul {
+    height: 160px;
+    margin-bottom: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  footer .footerLinks .menuLinks ul li a {
+    font-size: 15px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #1F1F1F;
+  }
+  footer .footerLinks .menuLinks ul li a:visited {
+    color: #1F1F1F;
   }
 }
 
