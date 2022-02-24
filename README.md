@@ -11,7 +11,7 @@
 * [Elise](https://github.com/eliseprts)
 * [Chris](https://github.com/chris-delecluse)
 
-## The challenge
+## The Challenge
 
 Based on [this Figma file](https://www.figma.com/file/QW2bswyiiy8KFk68EbJnZU/Shade-Digital-Service-Landing-Page-(Community)?node-id=4%3A702), reproduce a landing page including responsiveness all devices desktop, tablet and mobile.
 
