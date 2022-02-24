@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-@import url(./contributors/chris.scss);
-=======
 @import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&family=Rubik&display=swap");
 body {
   font-family: "Karla", sans-serif;
@@ -129,6 +126,36 @@ body {
     color: #878B90;
   }
 }
+.content1 {
+  height: 653px;
+  background-color: #258AFF;
+}
+.content1 .content1Container {
+  margin: 0 auto;
+  width: 353px;
+  height: 100%;
+}
+.content1 .content1Container .content1Img {
+  margin: 0 auto 22px auto;
+  Height: 330px;
+  width: 200px;
+  background-image: url(/assets/images/app-shot-01.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  transform: scale(2);
+  position: relative;
+  top: 6px;
+}
+.content1 .content1Container .content1Main {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  color: #FFF;
+}
+.content1 .content1Container .content1Main p:last-of-type {
+  line-height: 2em;
+}
+
 @media only screen and (max-width: 500px) {
   body {
     font-family: "Karla", sans-serif;
@@ -140,7 +167,7 @@ body {
     padding-top: 64px;
     padding-left: 58px;
     padding-right: 58px;
-    padding-bottom: 66px;
+    margin-bottom: 141px;
     background-color: #e3eef8;
   }
 
@@ -300,6 +327,5 @@ body {
     color: #1F1F1F;
   }
 }
->>>>>>> 8f4baed1f8d77c848779591962a703783a51408e
 
 /*# sourceMappingURL=style.css.map */
