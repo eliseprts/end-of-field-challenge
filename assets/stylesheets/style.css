@@ -10,7 +10,7 @@ body .breakWord {
 
 @media only screen and (max-width: 500px) {
   header {
-    width: 383px;
+    width: 330px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -18,7 +18,7 @@ body .breakWord {
   }
 
   nav {
-    width: 350px;
+    width: 330px;
     margin: 9px auto 52px auto;
     display: flex;
     justify-content: space-between;
@@ -132,7 +132,7 @@ body .breakWord {
 }
 .content1 .content1Container {
   margin: 0 auto;
-  width: 353px;
+  width: 330px;
   height: 100%;
 }
 .content1 .content1Container .content1Img {
@@ -296,6 +296,48 @@ body .breakWord {
     border-radius: 10px;
   }
 }
+.price {
+  height: 1237px;
+  padding: 60px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  background-color: #192F48;
+}
+.price .priceHeader {
+  width: 330px;
+  color: #FFF;
+}
+.price .priceHeader p {
+  margin-bottom: 25px;
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+.price .priceHeader h3 {
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 30px;
+}
+.price .cardContent {
+  width: 330px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+.price .cardContent .priceCard {
+  width: 268px;
+  height: 425px;
+  padding: 31px 45px;
+  border: 1px white solid;
+}
+.price .cardContent .priceCard p:first-of-type {
+  margin-bottom: 49px;
+}
+
 @media only screen and (max-width: 500px) {
   footer {
     margin: 38px auto 0 auto;
