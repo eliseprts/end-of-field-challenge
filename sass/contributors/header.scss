@@ -21,55 +21,16 @@
        .hamburger {
            width: 25px;
            height: 15px;
-           background-image: url(/assets/images/icons/menuHamburger.png);
+           background-image: url(/assets/images/icons/Hamburger.svg);
            background-repeat: no-repeat;
            background-size: contain;
        }
        
-       // main container of shades logo 
-       // (better quality with svg)
        .shadesLogo {
-           transform: scale(1.5);
-         
-        // first part of shades logo
-        .logoShapeOne {
-            background-image: url(/assets/images/test/test.svg);
-            width: 9.52px;
-            height: 5.63px;
-
-            position: absolute;
-            top: 1.5px;
-        }
-
-        // second part of shades logo
-        .logoShapeTwo {
-            background-image: url(/assets/images/test/Path2.svg);
-            width: 9.52px;
-            height: 3.54px;
-
-            position: absolute;
-            top: 5.54px;
-        }
-
-        // last part of shades logo
-        .logoShapeTree {
-            background-image: url(/assets/images/test/Path2.svg);
-            width: 9.52px;
-            height: 3.54px;
-
-            position: absolute;
-            top: 7.58px;
-        }
-
-        p {
-            margin-left: 15px;
-            font-family: 'Rubik', sans-serif;
-            font-size: 10px;
-            line-height: 14px;
-            letter-spacing: -1px;
-        
-            color: #1F1F1F;
-        }
+           margin-left: 10px;
+           background-image: url(/assets/images/logos/Logo.svg);
+           width: 51px;
+           height: 14px;
     }
 }             
 
