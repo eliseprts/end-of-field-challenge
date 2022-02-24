@@ -1,76 +1,75 @@
-@media only screen and (max-width: 500px) {
-    footer {
-        margin: 38px auto 0 auto ;
-        width: 330px;
+@media only screen and (max-width: 400px) {
+  footer {
+    margin: 38px auto 0 auto;
+    width: 330px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+
+    .footerMain {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      gap: 35px;
+
+      .footerParagraph {
+        height: 84px;
+
+        font-size: 13px;
 
         display: flex;
         flex-direction: column;
-        gap: 35px;
+        justify-content: space-between;
 
-        .footerMain {
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            gap: 35px;
+        color: #666666;
+      }
 
-            .footerParagraph {
-                height: 84px;
+      .socialNetworkIcons {
+        ul {
+          display: flex;
+          gap: 12px;
 
-                font-size: 13px;
-                
-                display: flex;
-                flex-direction: column;
-                justify-content: space-between;
-
-                color: #666666;
-            }
-        
-
-            .socialNetworkIcons {
-                ul {
-                    display: flex;
-                    gap: 12px;
-
-                    img {
-                        width: 14px;
-                        height: 14px;
-                    }
-                }
-            }
+          img {
+            width: 14px;
+            height: 14px;
+          }
         }
-
-        .footerLinks {
-            .menuLinks {
-                h4 {
-                    margin-bottom: 15px;
-                    font-size: 14px;
-                    font-weight: 700;
-
-                    color: #666666;
-                }
-
-                ul {
-                    height: 160px;
-                    margin-bottom: 32px;
-
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: space-around;
-
-                    li {
-                        a {
-                            font-size: 15px;
-                            font-weight: 700;
-                            text-decoration: none;
-                            color: #1F1F1F;
-
-                            &:visited {
-                                color: #1F1F1F;
-                            }
-                        }
-                    }
-                }
-            }
-        }
+      }
     }
+
+    .footerLinks {
+      .menuLinks {
+        h4 {
+          margin-bottom: 15px;
+          font-size: 14px;
+          font-weight: 700;
+
+          color: #666666;
+        }
+
+        ul {
+          height: 160px;
+          margin-bottom: 32px;
+
+          display: flex;
+          flex-direction: column;
+          justify-content: space-around;
+
+          li {
+            a {
+              font-size: 15px;
+              font-weight: 700;
+              text-decoration: none;
+              color: #1f1f1f;
+
+              &:visited {
+                color: #1f1f1f;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 }
