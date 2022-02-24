@@ -4,6 +4,9 @@ body {
   font-weight: 400;
   background-color: #e3eef8;
 }
+body .breakWord {
+  display: block;
+}
 
 @media only screen and (max-width: 500px) {
   header {
@@ -12,9 +15,6 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
-  header .breakWord {
-    display: block;
   }
 
   nav {
@@ -126,6 +126,58 @@ body {
     color: #878B90;
   }
 }
+.content1 {
+  height: 653px;
+  background-color: #258AFF;
+}
+.content1 .content1Container {
+  margin: 0 auto;
+  width: 353px;
+  height: 100%;
+}
+.content1 .content1Container .content1Img {
+  margin: 0 auto 17px auto;
+  Height: 330px;
+  width: 200px;
+  background-image: url(/assets/images/app-shot-01.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  transform: scale(2);
+  position: relative;
+  top: 6px;
+}
+.content1 .content1Container .content1Main {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  color: #FFF;
+}
+.content1 .content1Container .content1Main h3 {
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 17px;
+  text-transform: uppercase;
+}
+.content1 .content1Container .content1Main h2 {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 30px;
+}
+.content1 .content1Container .content1Main p {
+  font-size: 15px;
+  line-height: 32px;
+  color: #E4E4E4;
+}
+.content1 .content1Container .content1Main button {
+  width: 180px;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: 700;
+  color: #258AFF;
+}
+
 @media only screen and (max-width: 500px) {
   body {
     font-family: "Karla", sans-serif;
@@ -137,7 +189,7 @@ body {
     padding-top: 64px;
     padding-left: 58px;
     padding-right: 58px;
-    padding-bottom: 66px;
+    margin-bottom: 141px;
     background-color: #e3eef8;
   }
 
