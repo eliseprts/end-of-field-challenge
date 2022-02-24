@@ -1,4 +1,62 @@
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 500px) {
+  // GENERAL
+  $primary-color: #1f1f1f;
+  $secondary-color: #666666;
+  $accent-color1: #258aff;
+  $background-color: #e3eef8;
+
+  body {
+    font-family: "Karla", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+  }
+
+  //FEATURES
+  .featuresContainer {
+    padding-top: 64px;
+    padding-left: 58px;
+    padding-right: 58px;
+    margin-bottom: 141px;
+    background-color: $background-color;
+  }
+  .featuresContent {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    gap: 57px;
+    .features {
+      display: flex;
+      flex-direction: row;
+      gap: 31px;
+    }
+    img {
+      width: 24px;
+      height: 26px;
+      margin-top: 3px;
+    }
+    .featuresText {
+      display: flex;
+      flex-direction: column;
+      h3 {
+        color: #000000;
+        font: {
+          weight: 700;
+          size: 20px;
+        }
+        line-height: 32px;
+        letter-spacing: -1px;
+      }
+      p {
+        color: $secondary-color;
+        font: {
+          size: 15px;
+        }
+        line-height: 28px;
+      }
+    }
+  }
+
+  // CONTENT 2
   .content2 {
     padding-top: 67px;
     padding-left: 58px;

@@ -4,6 +4,9 @@ body {
   font-weight: 400;
   background-color: #e3eef8;
 }
+body .breakWord {
+  display: block;
+}
 
 @media only screen and (max-width: 400px) {
   header {
@@ -168,7 +171,106 @@ body {
     line-height: 28px;
   }
 }
-@media only screen and (max-width: 400px) {
+.content1 {
+  height: 653px;
+  background-color: #258AFF;
+}
+.content1 .content1Container {
+  margin: 0 auto;
+  width: 330px;
+  height: 100%;
+}
+.content1 .content1Container .content1Img {
+  margin: 0 auto 17px auto;
+  Height: 330px;
+  width: 200px;
+  background-image: url(/assets/images/app-shot-01.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  transform: scale(2);
+  position: relative;
+  top: 6px;
+}
+.content1 .content1Container .content1Main {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  color: #FFF;
+}
+.content1 .content1Container .content1Main h3 {
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 17px;
+  text-transform: uppercase;
+}
+.content1 .content1Container .content1Main h2 {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 30px;
+}
+.content1 .content1Container .content1Main p {
+  font-size: 15px;
+  line-height: 32px;
+  color: #E4E4E4;
+}
+.content1 .content1Container .content1Main button {
+  width: 180px;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: 700;
+  color: #258AFF;
+}
+
+@media only screen and (max-width: 500px) {
+  body {
+    font-family: "Karla", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+  }
+
+  .featuresContainer {
+    padding-top: 64px;
+    padding-left: 58px;
+    padding-right: 58px;
+    margin-bottom: 141px;
+    background-color: #e3eef8;
+  }
+
+  .featuresContent {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    gap: 57px;
+  }
+  .featuresContent .features {
+    display: flex;
+    flex-direction: row;
+    gap: 31px;
+  }
+  .featuresContent img {
+    width: 24px;
+    height: 26px;
+    margin-top: 3px;
+  }
+  .featuresContent .featuresText {
+    display: flex;
+    flex-direction: column;
+  }
+  .featuresContent .featuresText h3 {
+    color: #000000;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: -1px;
+  }
+  .featuresContent .featuresText p {
+    color: #666666;
+    font-size: 15px;
+    line-height: 28px;
+  }
+
   .content2 {
     padding-top: 67px;
     padding-left: 58px;
@@ -339,6 +441,48 @@ body {
     filter: grayscale(100%);
   }
 }
+.price {
+  height: 1237px;
+  padding: 60px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  background-color: #192F48;
+}
+.price .priceHeader {
+  width: 330px;
+  color: #FFF;
+}
+.price .priceHeader p {
+  margin-bottom: 25px;
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+.price .priceHeader h3 {
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 30px;
+}
+.price .cardContent {
+  width: 330px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+.price .cardContent .priceCard {
+  width: 268px;
+  height: 425px;
+  padding: 31px 45px;
+  border: 1px white solid;
+}
+.price .cardContent .priceCard p:first-of-type {
+  margin-bottom: 49px;
+}
+
 @media only screen and (max-width: 400px) {
   footer {
     margin: 38px auto 0 auto;
