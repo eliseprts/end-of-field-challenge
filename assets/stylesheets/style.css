@@ -149,6 +149,7 @@ body {
     width: 24px;
     height: 26px;
     margin-top: 3px;
+    filter: invert(44%) sepia(19%) saturate(7149%) hue-rotate(197deg) brightness(102%) contrast(101%);
   }
   .featuresContent .featuresText {
     display: flex;
@@ -210,6 +211,12 @@ body {
     width: 20.53px;
     height: 20.53px;
     padding: 11.73px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .content2 .content2Box .content2Icon img {
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(303deg) brightness(103%) contrast(101%);
   }
   .content2 .content2Box h3 {
     width: 160px;
@@ -319,12 +326,10 @@ body {
   }
 
   .clients {
-    width: 390px;
-    margin-left: 55px;
-    margin-right: 55px;
     display: flex;
-    flex-direction: row;
-    gap: 20px;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
   }
   .clients img {
     filter: grayscale(100%);
