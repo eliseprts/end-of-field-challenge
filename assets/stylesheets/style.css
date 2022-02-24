@@ -329,9 +329,13 @@ body .breakWord {
   gap: 50px;
 }
 .price .cardContent .priceCard {
-  width: 330px;
-  height: 515px;
+  width: 268px;
+  height: 425px;
+  padding: 31px 45px;
   border: 1px white solid;
+}
+.price .cardContent .priceCard p:first-of-type {
+  margin-bottom: 49px;
 }
 
 @media only screen and (max-width: 500px) {

@@ -40,10 +40,15 @@
         gap: 50px;
 
         .priceCard {
-            width: 330px;
-            height: 515px;
+            width: calc(330px - 62px);
+            height: calc(515px - 90px);
+            padding: 31px 45px;
 
             border: 1px white solid;
+
+            p:first-of-type {
+                margin-bottom: 49px;
+            }
         }
     }
 }
