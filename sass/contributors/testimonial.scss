@@ -1,8 +1,8 @@
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 400px) {
   .testimonial {
     padding-top: 67px;
-    padding-left: 59px;
-    padding-right: 59px;
+    padding-left: 58px;
+    padding-right: 58px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -40,7 +40,7 @@
       }
     }
     .testimonialBox {
-      width: 315px;
+      width: 250px;
       background-color: #ffffff;
       border-radius: 5px;
       box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.036062);
@@ -83,11 +83,13 @@
     }
   }
   .clients {
+    width: 330px;
     display: flex;
     flex-wrap: wrap;
-    gap: 30px;
+    gap: 20px;
     justify-content: center;
     img {
+      width: 120px;
       filter: grayscale(100%);
     }
   }
