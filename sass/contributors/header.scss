@@ -7,6 +7,15 @@
        align-items: center;
    }
 
+   .shadesLogo {
+    margin-left: 10px;
+    background-image: url(/assets/images/logos/Logo.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 70px;
+    height: 18px;
+    }
+
    nav {
        width: 330px;
        margin: 9px auto 52px auto;
@@ -18,18 +27,11 @@
        
        .hamburger {
            width: 25px;
-           height: 15px;
+           height: 12px;
            background-image: url(/assets/images/icons/Hamburger.svg);
            background-repeat: no-repeat;
            background-size: contain;
        }
-       
-       .shadesLogo {
-           margin-left: 10px;
-           background-image: url(/assets/images/logos/Logo.svg);
-           width: 51px;
-           height: 14px;
-    }
 }             
 
    .headerContainer {
