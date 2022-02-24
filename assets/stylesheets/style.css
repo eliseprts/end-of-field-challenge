@@ -61,7 +61,7 @@ body {
     font-size: 10px;
     line-height: 14px;
     letter-spacing: -1px;
-    color: #1f1f1f;
+    color: #1F1F1F;
   }
 
   .headerContainer {
@@ -82,7 +82,7 @@ body {
     line-height: 45px;
     text-align: center;
     letter-spacing: -4px;
-    color: #1f1f1f;
+    color: #1F1F1F;
   }
   .headerContainer .headerText p:last-of-type {
     font-size: 15px;
@@ -114,7 +114,7 @@ body {
     align-self: center;
     border: none;
     border-radius: 5px;
-    background-color: #fc593b;
+    background-color: #FC593B;
     color: #fff;
   }
   .headerContainer .headerFoot {
@@ -123,7 +123,7 @@ body {
   .headerContainer .headerFoot p {
     font-size: 10px;
     letter-spacing: -0.32381px;
-    color: #878b90;
+    color: #878B90;
   }
 }
 @media only screen and (max-width: 500px) {
@@ -291,10 +291,10 @@ body {
     font-size: 15px;
     font-weight: 700;
     text-decoration: none;
-    color: #1f1f1f;
+    color: #1F1F1F;
   }
   footer .footerLinks .menuLinks ul li a:visited {
-    color: #1f1f1f;
+    color: #1F1F1F;
   }
 }
 
