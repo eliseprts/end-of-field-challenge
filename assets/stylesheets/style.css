@@ -276,7 +276,7 @@
 
   .price {
     height: 1237px;
-    padding: 60px 0;
+    padding: 60px 0 20px 0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -300,20 +300,105 @@
     line-height: 30px;
   }
   .price .cardContent {
-    width: 330px;
+    width: 310px;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 50px;
   }
   .price .cardContent .priceCard {
-    width: 268px;
+    width: 248px;
     height: 425px;
     padding: 31px 45px;
-    border: 1px white solid;
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+    border-radius: 6px;
   }
-  .price .cardContent .priceCard p:first-of-type {
+  .price .cardContent .priceCard .cardText p:first-of-type {
     margin-bottom: 49px;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  .price .cardContent .priceCard .cardText p:last-of-type {
+    font-size: 12px;
+    line-height: 23px;
+  }
+  .price .cardContent .priceCard .cardText .formulePrice {
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 20px;
+    margin-bottom: 13px;
+  }
+  .price .cardContent .priceCard .cardText .exponent {
+    font-size: 15px;
+    position: relative;
+    top: -25px;
+  }
+  .price .cardContent .priceCard .cardText .moveY {
+    font-size: 30px;
+    position: relative;
+    top: -5px;
+  }
+  .price .cardContent .priceCard ul {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    list-style-image: url(/assets/images/icons/check.svg);
+    margin-left: 25px;
+  }
+  .price .cardContent .priceCard ul li {
+    font-size: 15px;
+  }
+  .price .cardContent .priceCard button {
+    width: 181px;
+    height: 30px;
+    background-color: #258AFF;
+    border: none;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: 700;
+    color: #FFF;
+  }
+  .price .cardContent .priceCard .creditCard {
+    font-size: 12px;
+    color: #666666;
+  }
+  .price .cardContent .priceCard .creditCard p:last-of-type {
+    color: #E5E5E5;
+  }
+  .price .cardContent .darkCard {
+    background-color: #2B405A;
+    color: #FFF;
+  }
+  .price .cardContent .whiteCard {
+    background-color: #FFF;
+    position: relative;
+  }
+  .price .cardContent .whiteCard ul {
+    list-style-image: url(/assets/images/icons/darkCheck.svg);
+  }
+  .price .cardContent .whiteCard button {
+    background-color: #FC593B;
+  }
+  .price .cardContent .whiteCard .popularIcon {
+    width: 64px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 27px;
+    right: 33px;
+    border-radius: 13px;
+    background-color: #4EAB08;
+  }
+  .price .cardContent .whiteCard .popularIcon p {
+    font-size: 10px;
+    text-transform: uppercase;
+    color: #FFF;
   }
 
   footer {
