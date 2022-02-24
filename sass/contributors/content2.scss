@@ -1,8 +1,8 @@
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 400px) {
   .content2 {
     padding-top: 67px;
-    padding-left: 59px;
-    padding-right: 59px;
+    padding-left: 58px;
+    padding-right: 58px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -83,12 +83,12 @@
       margin-left: auto;
       margin-right: auto;
       margin-top: 54px;
-      width: 300px;
-      height: 493px;
+      width: 250px;
+      height: auto;
       border-radius: 10px;
     }
     .content2Border {
-      width: 354px;
+      width: 300px;
       border-bottom: 1px solid #ffffff;
       padding-top: 32px;
     }

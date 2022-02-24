@@ -5,7 +5,7 @@ body {
   background-color: #e3eef8;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 400px) {
   header {
     width: 383px;
     margin: 0 auto;
@@ -61,7 +61,7 @@ body {
     font-size: 10px;
     line-height: 14px;
     letter-spacing: -1px;
-    color: #1F1F1F;
+    color: #1f1f1f;
   }
 
   .headerContainer {
@@ -82,7 +82,7 @@ body {
     line-height: 45px;
     text-align: center;
     letter-spacing: -4px;
-    color: #1F1F1F;
+    color: #1f1f1f;
   }
   .headerContainer .headerText p:last-of-type {
     font-size: 15px;
@@ -114,7 +114,7 @@ body {
     align-self: center;
     border: none;
     border-radius: 5px;
-    background-color: #FC593B;
+    background-color: #fc593b;
     color: #fff;
   }
   .headerContainer .headerFoot {
@@ -123,10 +123,10 @@ body {
   .headerContainer .headerFoot p {
     font-size: 10px;
     letter-spacing: -0.32381px;
-    color: #878B90;
+    color: #878b90;
   }
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 400px) {
   .featuresContainer {
     padding-top: 64px;
     padding-left: 58px;
@@ -168,11 +168,11 @@ body {
     line-height: 28px;
   }
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 400px) {
   .content2 {
     padding-top: 67px;
-    padding-left: 59px;
-    padding-right: 59px;
+    padding-left: 58px;
+    padding-right: 58px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -242,21 +242,21 @@ body {
     margin-left: auto;
     margin-right: auto;
     margin-top: 54px;
-    width: 300px;
-    height: 493px;
+    width: 250px;
+    height: auto;
     border-radius: 10px;
   }
   .content2 .content2Border {
-    width: 354px;
+    width: 300px;
     border-bottom: 1px solid #ffffff;
     padding-top: 32px;
   }
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 400px) {
   .testimonial {
     padding-top: 67px;
-    padding-left: 59px;
-    padding-right: 59px;
+    padding-left: 58px;
+    padding-right: 58px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -289,7 +289,7 @@ body {
     padding-top: 20px;
   }
   .testimonial .testimonialBox {
-    width: 315px;
+    width: 250px;
     background-color: #ffffff;
     border-radius: 5px;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.036062);
@@ -328,16 +328,18 @@ body {
   }
 
   .clients {
+    width: 330px;
     display: flex;
     flex-wrap: wrap;
-    gap: 30px;
+    gap: 20px;
     justify-content: center;
   }
   .clients img {
+    width: 120px;
     filter: grayscale(100%);
   }
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 400px) {
   footer {
     margin: 38px auto 0 auto;
     width: 330px;
@@ -384,10 +386,10 @@ body {
     font-size: 15px;
     font-weight: 700;
     text-decoration: none;
-    color: #1F1F1F;
+    color: #1f1f1f;
   }
   footer .footerLinks .menuLinks ul li a:visited {
-    color: #1F1F1F;
+    color: #1f1f1f;
   }
 }
 
