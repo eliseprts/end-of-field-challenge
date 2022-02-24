@@ -8,7 +8,7 @@
         height: 100%;
 
         .content1Img {
-            margin: 0 auto 22px auto;
+            margin: 0 auto 17px auto;
             Height: 330px;
             width: 200px;
 
@@ -25,12 +25,41 @@
         .content1Main {
             display: flex;
             flex-direction: column;
-            gap: 22px;
+            gap: 12px;
 
             color: #FFF;
 
-            p:last-of-type {
-                line-height: 2em;
+            h3 {
+                font-size: 15px;
+                font-weight: 700;
+                line-height: 17px;
+                text-transform: uppercase;
+            }
+
+            h2 {
+                font-size: 30px;
+                font-weight: 700;
+                line-height: 30px;
+            }
+
+            p {
+                font-size: 15px;
+                line-height: 32px;
+
+                color: #E4E4E4;
+            }
+
+            button {
+                width: 180px;
+                height: 30px;
+
+                border: none;
+                border-radius: 5px;
+
+                font-size: 12px;
+                font-weight: 700;
+
+                color: #258AFF;
             }
         }
     }
