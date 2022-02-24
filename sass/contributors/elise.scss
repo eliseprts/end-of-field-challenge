@@ -5,24 +5,17 @@
   $accent-color1: #258aff;
   $background-color: #e3eef8;
 
-  body {
-    font-family: "Karla", sans-serif;
-    font-style: normal;
-    font-weight: 400;
-  }
-
   //FEATURES
   .featuresContainer {
     padding-top: 64px;
     padding-left: 58px;
     padding-right: 58px;
     padding-bottom: 66px;
-    background-color: $background-color;
   }
   .featuresContent {
     display: flex;
     flex-direction: column;
-    align-content: center;
+    justify-content: center;
     gap: 57px;
     .features {
       display: flex;
@@ -58,15 +51,12 @@
 
   // CONTENT 2
   .content2 {
-    background-color: $background-color;
     padding-top: 67px;
-    padding-left: 58px;
-    padding-right: 58px;
-    padding-bottom: 32px;
+    padding-left: 59px;
+    padding-right: 59px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    border-bottom: 1px solid #ffffff;
 
     .content2Main {
       h3 {
@@ -133,8 +123,114 @@
         color: $secondary-color;
       }
     }
-    img {
+    .content2Img {
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 54px;
+      width: 300px;
+      height: 493px;
       border-radius: 10px;
+    }
+    .content2Border {
+      width: 354px;
+      border-bottom: 1px solid #ffffff;
+      padding-top: 32px;
+    }
+  }
+
+  // TESTIMONIAL
+  .testimonial {
+    padding-top: 67px;
+    padding-left: 59px;
+    padding-right: 59px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .testimonialMain {
+      padding-left: 10px;
+      padding-right: 10px;
+      h3 {
+        color: $accent-color1;
+        text-transform: uppercase;
+        font : {
+          weight: 700;
+          size: 15px;
+        }
+        line-height: 18px;
+        letter-spacing: 2.8125px;
+      }
+      h2 {
+        color: $primary-color;
+        font : {
+          weight: 700;
+          size: 30px;
+        }
+        line-height: 30px;
+        letter-spacing: -2.52632px;
+        padding-top: 20px;
+      }
+      p {
+        color: $secondary-color;
+        font : {
+          weight: 400;
+          size: 15px;
+        }
+        line-height: 32px;
+        padding-top: 20px;
+      }
+    }
+    .testimonialBox {
+      width: 315px;
+      background-color: #ffffff;
+      border-radius: 5px;
+      box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.036062);
+      margin: 35px 35px;
+      padding: 31px 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 17px;
+      blockquote {
+        font: {
+          family: "Rubik", sans-serif;
+          size: 15px;
+        }
+        color: $primary-color;
+        line-height: 32px;
+        letter-spacing: -0.1px;
+      }
+      .customer {
+        display: flex;
+        flex-direction: row;
+        gap: 22px;
+        h4 {
+          font : {
+            weight: 700;
+            size: 15px;
+          }
+          line-height: 28px;
+          letter-spacing: -0.32px;
+        }
+        p {
+          font-size: 12px;
+          line-height: 28px;
+          letter-spacing: -0.4px;
+          color: $secondary-color;
+        }
+      }
+    }
+    .testimonialBox2 {
+      display: none;
+    }
+  }
+  .clients {
+    width: 390px;
+    margin-left: 55px;
+    margin-right: 55px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    img {
+      filter: grayscale(100%);
     }
   }
 }
