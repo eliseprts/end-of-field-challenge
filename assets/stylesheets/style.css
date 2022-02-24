@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-@import url(./contributors/chris.scss);
-=======
 @import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&family=Rubik&display=swap");
 body {
   font-family: "Karla", sans-serif;
@@ -300,6 +297,5 @@ body {
     color: #1F1F1F;
   }
 }
->>>>>>> 8f4baed1f8d77c848779591962a703783a51408e
 
 /*# sourceMappingURL=style.css.map */
