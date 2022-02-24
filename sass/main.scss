@@ -1,2 +1,11 @@
-@import url(./contributors/chris.scss); // chrispart
+// font-family: 'Karla', sans-serif;
+// font-family: 'Rubik', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&family=Rubik&display=swap');
 
+@import './settings.scss';
+
+@import "./contributors/chris.scss"; // chrispart
+
+@import './contributors/elise.scss'; //elisepart
+
+@import './contributors/footer.scss'; // footer :)
