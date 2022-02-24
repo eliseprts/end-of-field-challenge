@@ -1,0 +1,46 @@
+@media only screen and (max-width: 500px) {
+  .featuresContainer {
+    padding-top: 64px;
+    padding-left: 58px;
+    padding-right: 58px;
+    padding-bottom: 66px;
+  }
+  .featuresContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 57px;
+    .features {
+      display: flex;
+      flex-direction: row;
+      gap: 31px;
+    }
+    img {
+      width: 24px;
+      height: 26px;
+      margin-top: 3px;
+      filter: invert(44%) sepia(19%) saturate(7149%) hue-rotate(197deg)
+        brightness(102%) contrast(101%);
+    }
+    .featuresText {
+      display: flex;
+      flex-direction: column;
+      h3 {
+        color: #000000;
+        font: {
+          weight: 700;
+          size: 20px;
+        }
+        line-height: 32px;
+        letter-spacing: -1px;
+      }
+      p {
+        color: #666666;
+        font: {
+          size: 15px;
+        }
+        line-height: 28px;
+      }
+    }
+  }
+}
