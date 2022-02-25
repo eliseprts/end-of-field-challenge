@@ -54,6 +54,9 @@ nav .navLinks ul li a:visited {
 nav .navLinks ul li a:hover {
   color: #258aff;
 }
+nav .getStarted {
+  display: none;
+}
 nav .hamburger {
   width: 25px;
   height: 12px;
