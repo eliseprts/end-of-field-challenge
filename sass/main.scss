@@ -4,12 +4,25 @@
 
 @import './settings.scss'; // global settings.
 
-@import './contributors/header.scss'; // header part.
+@import './mobile/header.scss'; // header part.
 
-@import './contributors/content-1.scss'; // content 1 part.
+@import './mobile/content-1.scss'; // content 1 part.
 
-@import './contributors/elise.scss'; // elisepart
+@import './mobile/elise.scss'; // elisepart
 
-@import './contributors/price.scss'; // price part.
+@import './mobile/price.scss'; // price part.
 
-@import './contributors/footer.scss'; // footer.
+@import './mobile/footer.scss'; // footer.
+
+@media screen and (max-width: 900px) // px a definir
+{
+    @import './tablet/tablet-header.scss';
+
+    @import './tablet/tablet-content1.scss';
+
+    // @import '';
+
+    @import './tablet/tablet-price.scss';
+
+    @import './tablet/tablet-footer.scss';
+}

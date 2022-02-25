@@ -38,6 +38,7 @@ nav .hamburger {
   background-image: url(/assets/images/icons/Hamburger.svg);
   background-repeat: no-repeat;
   background-size: contain;
+  cursor: pointer;
 }
 
 .headerContainer {
