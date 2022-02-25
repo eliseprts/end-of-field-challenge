@@ -613,7 +613,61 @@ footer .footerLinks .menuLinks ul li a:visited {
 }
 
 @media screen and (min-width: 768px) {
-  .headerContainer {
+  header {
+    width: 652px;
+  }
+  header nav {
+    width: 652px;
+  }
+  header .navLinksContent {
+    width: auto;
+    height: auto;
+    position: static;
+    right: none;
+  }
+  header .navLinksContent .navLinks {
+    display: block;
+    width: auto;
+    height: 100%;
+    position: static;
+    transform: translate(0, 0);
+    background-color: transparent;
+    z-index: inherit;
+  }
+  header .navLinksContent .navLinks ul {
+    width: auto;
+    height: 100%;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 25px;
+  }
+  header .navLinksContent .navLinks ul li {
+    width: auto;
+    display: list-item;
+  }
+  header .navLinksContent .navLinks ul li a {
+    color: #000;
+  }
+  header .navLinksContent .navLinks ul li a:visited {
+    color: #1f1f1f;
+  }
+  header .navLinksContent .navLinks ul li a:hover {
+    color: #258aff;
+  }
+  header .hamburger {
+    display: none;
+  }
+  header .getStarted {
+    display: block;
+    width: 137px;
+    height: 40px;
+    border: 2px solid #258aff;
+    border-radius: 3px;
+    background-color: #e3eef8;
+    color: #258aff;
+  }
+  header .headerContainer {
     width: 652px;
   }
 

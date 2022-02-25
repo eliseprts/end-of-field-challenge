@@ -1,143 +1,74 @@
-// header {
-//   width: 652px;
-// }
-
-// nav {
-//   width: 652px;
-//   display: flex;
-//   justify-content: space-between;
-//   gap: 20px;
-//   align-items: baseline;
-//   .navLinks {
-//     display: flex;
-//     ul {
-//       flex-direction: row;
-//       gap: 20px;
-//       li {
-//         a {
-//           text-decoration: none;
-//           color: #1f1f1f;
-//           &:visited {
-//             color: #1f1f1f;
-//           }
-//         }
-//       }
-//     }
-//   }
-//   .hamburger {
-//     display: none;
-//   }
-//   .getStarted {
-//     display: block;
-//     width: 137px;
-//     height: 40px;
-//     border: 2px solid #258aff;
-//     border-radius: 3px;
-//     background-color: #e3eef8;
-//     color: #258aff;
-//   }
-// }
-
-.headerContainer {
+header {
   width: 652px;
+
+  nav {
+    width: 652px;
+  }
+
+  .navLinksContent {
+    width: auto;
+    height: auto;
+    position: static;
+    right: none;
+
+    .navLinks {
+      display: block;
+      width: auto;
+      height: 100%;
+      
+      position: static;
+
+      transform: translate(0, 0);
+      background-color: transparent;
+      
+      z-index: inherit;
+
+      ul {
+        width: auto;
+        height: 100%;
+
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 25px;
+
+        li {
+          width: auto;
+          display: list-item;
+
+          a {
+            color: #000;
+            
+            &:visited {
+              color: #1f1f1f;
+            }
+
+            &:hover {
+              color: #258aff;
+            }
+            
+          }
+        }
+      }
+    }
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  .getStarted {
+    display: block;
+    width: 137px;
+    height: 40px;
+    border: 2px solid #258aff;
+    border-radius: 3px;
+    background-color: #e3eef8;
+    color: #258aff;
+  }
+
+  .headerContainer {
+    width: 652px;
+  }  
+
 }
-
-
-// .shadesLogo {
-//   margin-left: 10px;
-//   background-image: url(/assets/images/logos/Logo.svg);
-//   background-repeat: no-repeat;
-//   background-size: cover;
-//   width: 70px;
-//   height: 18px;
-// }
-
-// nav {
-//   width: 330px;
-//   margin: 9px auto 52px auto;
-
-//   display: flex;
-//   justify-content: space-between;
-  
-  
-//   .navLinks {
-//     display: none;
-//     width: 500px;
-//     height: 375px;
-    
-//     position: absolute;
-//     top: 0;
-//     left: 0;
-//     transform: translate(-78%, -3%);
-//     background-color: #192F48;
-    
-//     z-index: 2;
-    
-//     ul {
-//       width: 100%;
-//       height: 100%;
-      
-//       display: flex;
-//       flex-direction: column;
-//       justify-content: center;
-//       align-items: center;
-//       gap: 40px;
-      
-//       li {
-//         width: 100px;
-//         flex-basis: 25px;
-        
-//         display: flex;
-//         justify-content: center;
-        
-//         border-bottom: 2px solid transparent;
-        
-//         &:hover {
-//           border-bottom: 2px solid #258aff;
-//         }
-        
-//         a {
-//           font-size: 16px;
-//           text-decoration: none;
-//           color: #FFF;
-          
-//           &:visited {
-//             color: #FFF;
-//           }
-          
-//           &:hover {
-//             color: #258aff;
-//           }
-//         }
-//       }
-//     }
-//   }
-  
-//   .navLinksContent {
-
-//     width: 25px;
-//     height: 12px;
-
-//     position: absolute;
-//     right: 0;
-    
-//     &:hover {
-//       .navLinks{
-//         display: block
-//       }
-//     }
-//   }
-
-//   .getStarted {
-//     display: none;
-//   }
-//   .hamburger {
-//     width: 25px;
-//     height: 12px;
-//     background-image: url(/assets/images/icons/Hamburger.svg);
-//     background-repeat: no-repeat;
-//     background-size: contain;
-
-//     cursor: pointer;
-//   }
-// }
