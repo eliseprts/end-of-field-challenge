@@ -1,5 +1,5 @@
 .content1 {
-    height: 653px;
+    height: 693px;
     background-color: #258AFF;
 
     .content1Container {
@@ -17,12 +17,16 @@
             background-size: contain;
 
             transform: scale(2);
+            z-index: 10;
 
             position: relative;
             top: 6px;
         }
         
         .content1Main {
+            margin: 0 auto;
+            width: 310px;
+
             display: flex;
             flex-direction: column;
             gap: 12px;
@@ -34,12 +38,14 @@
                 font-weight: 700;
                 line-height: 17px;
                 text-transform: uppercase;
+                letter-spacing: 3px;
             }
 
             h2 {
                 font-size: 30px;
                 font-weight: 700;
                 line-height: 30px;
+                letter-spacing: -2.5px;
             }
 
             p {
@@ -55,6 +61,8 @@
 
                 border: none;
                 border-radius: 5px;
+
+                cursor: pointer;
 
                 font-size: 12px;
                 font-weight: 700;

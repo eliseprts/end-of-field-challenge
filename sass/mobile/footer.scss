@@ -1,11 +1,14 @@
-@media only screen and (max-width: 500px) {
     footer {
         margin: 38px auto 0 auto ;
-        width: 330px;
+        width: 310px;
 
         display: flex;
         flex-direction: column;
         gap: 35px;
+
+        .shadesLogo {
+            margin: 0;
+        }
 
         .footerMain {
             display: flex;
@@ -73,4 +76,3 @@
             }
         }
     }
-}
