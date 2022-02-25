@@ -724,6 +724,17 @@ footer .footerLinks .menuLinks ul li a:visited {
     flex-direction: row;
     flex-wrap: nowrap;
   }
+
+  footer {
+    width: 652px;
+  }
+  footer .footerMain {
+    margin-left: 52px;
+  }
+  footer .footerLinks {
+    display: flex;
+    justify-content: space-around;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
