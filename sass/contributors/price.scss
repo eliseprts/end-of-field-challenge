@@ -124,6 +124,13 @@
         .darkCard {
             background-color: #2B405A;
             color: #FFF;
+
+            ul {
+                .active {
+                    text-decoration: line-through;
+                    color: #878B90;
+                }
+            }
         }
         
         .whiteCard {

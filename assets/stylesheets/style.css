@@ -376,6 +376,10 @@
     background-color: #2B405A;
     color: #FFF;
   }
+  .price .cardContent .darkCard ul .active {
+    text-decoration: line-through;
+    color: #878B90;
+  }
   .price .cardContent .whiteCard {
     background-color: #FFF;
     position: relative;
