@@ -10,7 +10,7 @@ body .breakWord {
 
 header {
   width: 330px;
-  margin: 39px auto;
+  margin: 0 auto 39px auto;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -32,10 +32,13 @@ nav {
   display: flex;
   justify-content: space-between;
 }
+nav .shadesLogo {
+  margin-top: 9px;
+}
 nav .navLinks {
   display: none;
   width: 500px;
-  height: 375px;
+  height: 475px;
   position: absolute;
   top: 0;
   left: 0;
@@ -88,6 +91,7 @@ nav .getStarted {
 nav .hamburger {
   width: 25px;
   height: 12px;
+  margin-top: 9px;
   background-image: url(/assets/images/icons/Hamburger.svg);
   background-repeat: no-repeat;
   background-size: contain;
@@ -623,6 +627,9 @@ footer .footerLinks .menuLinks ul li a:visited {
   }
   header nav {
     width: 652px;
+  }
+  header nav .shadesLogo {
+    margin-top: 9px;
   }
   header .navLinksContent {
     width: auto;
