@@ -2,18 +2,31 @@
 // font-family: 'Rubik', sans-serif;
 @import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&family=Rubik&display=swap");
 
-@import "./settings.scss";
+@import "./settings.scss"; // global settings.
 
-@import "./contributors/header.scss"; // header part.
+@import "./mobile/header.scss"; // header part.
 
-@import "./contributors/features.scss"; //features
+@import "./mobile/features.scss"; // features part
 
-@import "./contributors/content-1.scss"; // content 1 part.
+@import "./mobile/content-1.scss"; // content 1 part.
 
-@import "./contributors/content2.scss"; //content2
+@import "./mobile/content2.scss"; // content 2 part
 
-@import "./contributors/testimonial.scss"; //testimonial
+@import "./mobile/testimonial.scss"; // testimonial part
 
-@import "./contributors/price.scss"; // price part.
+@import "./mobile/price.scss"; // price part.
 
-@import "./contributors/footer.scss"; // footer.
+@import "./mobile/footer.scss"; // footer.
+
+@media screen and (max-width: 900px) {
+  // px a definir
+  @import "./tablet/tablet-header.scss";
+
+  @import "./tablet/tablet-content1.scss";
+
+  // @import '';
+
+  @import "./tablet/tablet-price.scss";
+
+  @import "./tablet/tablet-footer.scss";
+}
