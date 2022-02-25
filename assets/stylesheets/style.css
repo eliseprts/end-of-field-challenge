@@ -32,6 +32,28 @@ nav {
   justify-content: space-between;
   position: relative;
 }
+nav .navLinks {
+  display: none;
+}
+nav .navLinks ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+}
+nav .navLinks ul li {
+  font-size: 16px;
+}
+nav .navLinks ul li a {
+  text-decoration: none;
+  color: #1f1f11;
+}
+nav .navLinks ul li a:visited {
+  color: inherit;
+}
+nav .navLinks ul li a:hover {
+  color: #258aff;
+}
 nav .hamburger {
   width: 25px;
   height: 12px;

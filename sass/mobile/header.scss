@@ -25,6 +25,28 @@ nav {
 
   position: relative;
 
+  .navLinks {
+    display: none;
+    ul {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 100%;
+      li {
+        font-size: 16px;
+        a {
+          text-decoration: none;
+          color: #1f1f11;
+          &:visited {
+            color: inherit;
+          }
+          &:hover {
+            color: #258aff;
+          }
+        }
+      }
+    }
+  }
   .hamburger {
     width: 25px;
     height: 12px;
