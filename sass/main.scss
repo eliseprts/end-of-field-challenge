@@ -19,18 +19,21 @@
 @import "./mobile/footer.scss"; // footer.
 
 @media screen and (min-width: 768px) {
-  // px a definir
-  @import "./tablet/tablet-header.scss";
 
-  @import "./tablet/tablet-features.scss";
+  @import "./tablet/tablet-header.scss"; // header tablet.
 
-  @import "./tablet/tablet-content1.scss";
+  @import "./tablet/tablet-features.scss"; // features tablet.
 
-  @import "./tablet/tablet-content2.scss";
+  @import "./tablet/tablet-content1.scss"; // content 1 tablet.
 
-  @import "./tablet/tablet-testimonial.scss";
+  @import "./tablet/tablet-content2.scss"; // content 2 tablet.
 
-  @import "./tablet/tablet-price.scss";
+  @import "./tablet/tablet-testimonial.scss"; // testimonial tablet.
 
-  @import "./tablet/tablet-footer.scss";
+  @import "./tablet/tablet-footer.scss"; // footer tablet.
+}
+
+@media screen and (min-width: 1366px) {
+
+  @import "./desktop/desktop-header.scss"; // header destop.
 }
