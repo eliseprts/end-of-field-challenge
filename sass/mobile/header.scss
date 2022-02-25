@@ -1,120 +1,120 @@
-   header {
-       width: 330px;
-       margin: 0 auto;
+header {
+  width: 330px;
+  margin: 0 auto;
 
-       display: flex;
-       flex-direction: column;
-       align-items: center;
-   }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
-   .shadesLogo {
-    margin-left: 10px;
-    background-image: url(/assets/images/logos/Logo.svg);
+.shadesLogo {
+  margin-left: 10px;
+  background-image: url(/assets/images/logos/Logo.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 70px;
+  height: 18px;
+}
+
+nav {
+  width: 330px;
+  margin: 9px auto 52px auto;
+
+  display: flex;
+  justify-content: space-between;
+
+  position: relative;
+
+  .hamburger {
+    width: 25px;
+    height: 12px;
+    background-image: url(/assets/images/icons/Hamburger.svg);
     background-repeat: no-repeat;
-    background-size: cover;
-    width: 70px;
-    height: 18px;
+    background-size: contain;
+
+    cursor: pointer;
+  }
+}
+
+.headerContainer {
+  width: 330px;
+
+  .headerText {
+    p:first-of-type {
+      font-weight: 700;
+      font-size: 10px;
+      text-align: center;
+      text-transform: uppercase;
+      letter-spacing: 2.8125px;
+
+      color: #666666;
     }
 
-   nav {
-       width: 330px;
-       margin: 9px auto 52px auto;
+    h1 {
+      margin: 16px 0;
+      font-weight: 700;
+      font-size: 40px;
+      line-height: 45px;
+      text-align: center;
+      letter-spacing: -4px;
 
-       display: flex;
-       justify-content: space-between;
+      color: #1f1f1f;
+    }
 
-       position: relative;
-       
-       .hamburger {
-           width: 25px;
-           height: 12px;
-           background-image: url(/assets/images/icons/Hamburger.svg);
-           background-repeat: no-repeat;
-           background-size: contain;
+    p:last-of-type {
+      font-size: 15px;
+      line-height: 25px;
+      text-align: center;
+      letter-spacing: -0.4px;
 
-           cursor: pointer;
-       }
-}             
+      color: #666666;
+    }
+  }
 
-   .headerContainer {
-        width: 330px;
+  .form {
+    margin: 24px auto;
+    height: 28px;
 
-        .headerText {
-            p:first-of-type {
-                font-weight: 700;
-                font-size: 10px;
-                text-align: center;
-                text-transform: uppercase;
-                letter-spacing: 2.8125px;
-    
-                color: #666666;
-            }
+    display: flex;
+    justify-content: center;
+    gap: 7px;
 
-            h1 {
-                margin: 16px 0;
-                font-weight: 700;
-                font-size: 40px;
-                line-height: 45px;
-                text-align: center;
-                letter-spacing: -4px;
+    input:first-child {
+      width: 134px;
+      height: 28px;
+      margin-bottom: 16px;
+      padding-left: 11.59px;
 
-                color: #1F1F1F;
-            }
-    
-            p:last-of-type {
-                font-size: 15px;
-                line-height: 25px;
-                text-align: center;
-                letter-spacing: -0.4px;
+      font-size: 12px;
+      line-height: 14px;
 
-                color: #666666;
-            }
-        }
+      border: none;
+      border-radius: 5px;
+    }
 
-        .form {
-            margin: 24px auto;
-            height: 28px;
+    input:last-child {
+      width: 101px;
+      height: 28px;
+      align-self: center;
 
-            display: flex;
-            justify-content: center;
-            gap: 7px;
+      border: none;
+      border-radius: 5px;
 
-            input:first-child {
-                width: 134px;
-                height: 28px;
-                margin-bottom: 16px;
-                padding-left: 11.59px;
+      cursor: pointer;
 
-                font-size: 12px;
-                line-height: 14px;
+      background-color: #fc593b;
+      color: #fff;
+    }
+  }
 
-                border: none;
-                border-radius: 5px;
-            }
+  .headerFoot {
+    text-align: center;
 
-            input:last-child {
-                width: 101px;
-                height: 28px;
-                align-self: center;
+    p {
+      font-size: 10px;
+      letter-spacing: -0.32381px;
 
-                border: none;
-                border-radius: 5px;
-
-                cursor: pointer;
-
-                background-color: #FC593B;
-                color: #fff;
-            }
-        }
-
-        .headerFoot {
-            text-align: center;
-
-            p {
-                font-size: 10px;
-                letter-spacing: -0.32381px;
-
-                color: #878B90;
-            }
-        }
-   }
+      color: #878b90;
+    }
+  }
+}
