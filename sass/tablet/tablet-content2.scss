@@ -1,9 +1,15 @@
 .content2 {
-  display: flex;
+  width: 652px;
   flex-direction: row;
-  justify-content: space-between;
-  gap: 120px;
+  align-items: flex-start;
+  gap: 30px;
+}
+
+.content2Img {
+  height: 500px;
+  width: auto;
+  align-self: center;
 }
 .content2Border {
-  width: 600px;
+  width: 720px;
 }

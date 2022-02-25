@@ -179,7 +179,7 @@ nav .hamburger {
 }
 .content1 .content1Container {
   margin: 0 auto;
-  width: 330px;
+  width: auto;
   height: 100%;
 }
 .content1 .content1Container .content1Img {
@@ -225,13 +225,15 @@ nav .hamburger {
 
 .content2 {
   padding-top: 67px;
-  margin-right: 58px;
-  margin-left: 58px;
+  width: 330px;
+  margin-left: auto;
+  margin-right: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.content2 .content2Main h3 {
+
+.content2Main h3 {
   color: #258aff;
   text-transform: uppercase;
   font-weight: 700;
@@ -239,7 +241,7 @@ nav .hamburger {
   line-height: 18px;
   letter-spacing: 2.8125px;
 }
-.content2 .content2Main h2 {
+.content2Main h2 {
   color: #1f1f1f;
   font-weight: 700;
   font-size: 30px;
@@ -247,29 +249,25 @@ nav .hamburger {
   letter-spacing: -2.52632px;
   padding-top: 20px;
 }
-.content2 .content2Main p {
+.content2Main p {
   color: #666666;
   font-weight: 400;
   font-size: 15px;
   line-height: 32px;
   padding-top: 20px;
 }
-.content2 .content2Img {
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 54px;
-  width: 250px;
-  height: auto;
-  border-radius: 10px;
-}
 
-.content2Box {
+.content2Boxes {
+  display: flex;
+  flex-direction: column;
+}
+.content2Boxes .content2Box {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding-top: 35px;
 }
-.content2Box .content2Icon {
+.content2Boxes .content2Box .content2Icon {
   background-color: #258aff;
   border-radius: 50%;
   width: 20.53px;
@@ -279,10 +277,10 @@ nav .hamburger {
   justify-content: center;
   align-items: center;
 }
-.content2Box .content2Icon img {
+.content2Boxes .content2Box .content2Icon img {
   filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(303deg) brightness(103%) contrast(101%);
 }
-.content2Box h3 {
+.content2Boxes .content2Box h3 {
   width: 160px;
   height: 32px;
   text-align: center;
@@ -293,13 +291,20 @@ nav .hamburger {
   line-height: 32px;
   letter-spacing: -1px;
 }
-.content2Box p {
+.content2Boxes .content2Box p {
   width: 243px;
   height: 84px;
   font-size: 15px;
   line-height: 28px;
   text-align: center;
   color: #666666;
+}
+
+.content2Img {
+  margin-left: auto;
+  margin-right: auto;
+  width: 250px;
+  border-radius: 10px;
 }
 
 .content2Border {
@@ -646,14 +651,31 @@ footer .footerLinks .menuLinks ul li a:visited {
   }
 
   .content2 {
-    display: flex;
+    width: 652px;
     flex-direction: row;
-    justify-content: space-between;
-    gap: 120px;
+    align-items: flex-start;
+    gap: 30px;
+  }
+
+  .content2Img {
+    height: 500px;
+    width: auto;
+    align-self: center;
   }
 
   .content2Border {
-    width: 600px;
+    width: 720px;
+  }
+
+  .testimonialBoxes {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+  }
+
+  .clients {
+    flex-direction: row;
+    flex-wrap: nowrap;
   }
 }
 
