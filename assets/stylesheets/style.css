@@ -10,7 +10,7 @@ body .breakWord {
 
 header {
   width: 330px;
-  margin: 0 auto;
+  margin: 39px auto;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -82,6 +82,9 @@ nav .navLinksContent {
 nav .navLinksContent:hover .navLinks {
   display: block;
 }
+nav .getStarted {
+  display: none;
+}
 nav .hamburger {
   width: 25px;
   height: 12px;
@@ -93,6 +96,7 @@ nav .hamburger {
 
 .headerContainer {
   width: 330px;
+  padding-top: 13px;
 }
 .headerContainer .headerText p:first-of-type {
   font-weight: 700;
@@ -155,9 +159,10 @@ nav .hamburger {
 }
 
 .featuresContainer {
+  width: 330px;
+  margin-left: auto;
+  margin-right: auto;
   padding-top: 64px;
-  padding-left: 58px;
-  padding-right: 58px;
   padding-bottom: 66px;
   margin-bottom: 66px;
 }
@@ -197,8 +202,8 @@ nav .hamburger {
 }
 
 .content1 {
-  height: 693px;
-  background-color: #258AFF;
+  height: 653px;
+  background-color: #258aff;
 }
 .content1 .content1Container {
   margin: 0 auto;
@@ -206,16 +211,8 @@ nav .hamburger {
   height: 100%;
 }
 .content1 .content1Container .content1Img {
-  margin: 0 auto 17px auto;
-  Height: 330px;
-  width: 200px;
-  background-image: url(/assets/images/app-shot-01.svg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  transform: scale(2);
-  z-index: 10;
-  position: relative;
-  top: 6px;
+  height: 326px;
+  transform: translateY(-125px);
 }
 .content1 .content1Container .content1Main {
   margin: 0 auto;
@@ -223,7 +220,7 @@ nav .hamburger {
   display: flex;
   flex-direction: column;
   gap: 12px;
-  color: #FFF;
+  color: #fff;
 }
 .content1 .content1Container .content1Main h3 {
   font-size: 15px;
@@ -241,7 +238,7 @@ nav .hamburger {
 .content1 .content1Container .content1Main p {
   font-size: 15px;
   line-height: 32px;
-  color: #E4E4E4;
+  color: #e4e4e4;
 }
 .content1 .content1Container .content1Main button {
   width: 180px;
@@ -251,13 +248,13 @@ nav .hamburger {
   cursor: pointer;
   font-size: 12px;
   font-weight: 700;
-  color: #258AFF;
+  color: #258aff;
 }
 
 .content2 {
   padding-top: 67px;
-  padding-left: 58px;
-  padding-right: 58px;
+  margin-right: 58px;
+  margin-left: 58px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -285,13 +282,22 @@ nav .hamburger {
   line-height: 32px;
   padding-top: 20px;
 }
-.content2 .content2Box {
+.content2 .content2Img {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 54px;
+  width: 250px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.content2Box {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding-top: 35px;
 }
-.content2 .content2Box .content2Icon {
+.content2Box .content2Icon {
   background-color: #258aff;
   border-radius: 50%;
   width: 20.53px;
@@ -301,10 +307,10 @@ nav .hamburger {
   justify-content: center;
   align-items: center;
 }
-.content2 .content2Box .content2Icon img {
+.content2Box .content2Icon img {
   filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(303deg) brightness(103%) contrast(101%);
 }
-.content2 .content2Box h3 {
+.content2Box h3 {
   width: 160px;
   height: 32px;
   text-align: center;
@@ -315,7 +321,7 @@ nav .hamburger {
   line-height: 32px;
   letter-spacing: -1px;
 }
-.content2 .content2Box p {
+.content2Box p {
   width: 243px;
   height: 84px;
   font-size: 15px;
@@ -323,15 +329,10 @@ nav .hamburger {
   text-align: center;
   color: #666666;
 }
-.content2 .content2Img {
+
+.content2Border {
   margin-left: auto;
   margin-right: auto;
-  margin-top: 54px;
-  width: 250px;
-  height: auto;
-  border-radius: 10px;
-}
-.content2 .content2Border {
   width: 300px;
   border-bottom: 1px solid #ffffff;
   padding-top: 32px;
@@ -609,6 +610,41 @@ footer .footerLinks .menuLinks ul li a {
 }
 footer .footerLinks .menuLinks ul li a:visited {
   color: #1f1f1f;
+}
+
+@media screen and (min-width: 768px) {
+  .headerContainer {
+    width: 652px;
+  }
+
+  .featuresContainer {
+    width: 652px;
+  }
+
+  .featuresContent {
+    flex-direction: row;
+  }
+
+  .content1Container {
+    width: 652px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .content2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 120px;
+  }
+
+  .content2Border {
+    width: 600px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
