@@ -1,0 +1,43 @@
+header {
+  width: 652px;
+}
+
+nav {
+  width: 652px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  align-items: baseline;
+  .navLinks {
+    display: flex;
+    ul {
+      flex-direction: row;
+      gap: 20px;
+      li {
+        a {
+          text-decoration: none;
+          color: #1f1f1f;
+          &:visited {
+            color: #1f1f1f;
+          }
+        }
+      }
+    }
+  }
+  .hamburger {
+    display: none;
+  }
+  .getStarted {
+    display: block;
+    width: 137px;
+    height: 40px;
+    border: 2px solid #258aff;
+    border-radius: 3px;
+    background-color: #e3eef8;
+    color: #258aff;
+  }
+}
+
+.headerContainer {
+  width: 652px;
+}

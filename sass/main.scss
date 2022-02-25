@@ -18,11 +18,15 @@
 
 @import "./mobile/footer.scss"; // footer.
 
-@media screen and (max-width: 900px) {
+@media screen and (min-width: 768px) {
   // px a definir
   @import "./tablet/tablet-header.scss";
 
+  @import "./tablet/tablet-features.scss";
+
   @import "./tablet/tablet-content1.scss";
+
+  @import "./tablet/tablet-content2.scss";
 
   // @import '';
 

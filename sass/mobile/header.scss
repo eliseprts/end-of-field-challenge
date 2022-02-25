@@ -1,6 +1,6 @@
 header {
   width: 330px;
-  margin: 0 auto;
+  margin: 39px auto;
 
   display: flex;
   flex-direction: column;
@@ -36,9 +36,9 @@ nav {
         font-size: 16px;
         a {
           text-decoration: none;
-          color: #1f1f11;
+          color: #1f1f1f;
           &:visited {
-            color: inherit;
+            color: #1f1f1f;
           }
           &:hover {
             color: #258aff;
@@ -63,6 +63,7 @@ nav {
 
 .headerContainer {
   width: 330px;
+  padding-top: 13px;
 
   .headerText {
     p:first-of-type {
