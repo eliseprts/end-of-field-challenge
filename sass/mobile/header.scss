@@ -35,7 +35,7 @@ nav {
     height: 475px;
     
     position: absolute;
-    top: 0;
+    top: -5px;
     left: 0;
     transform: translate(-78%, -3%);
     background-color: #192F48;
@@ -88,6 +88,7 @@ nav {
     height: 12px;
 
     position: absolute;
+    top: 18px;
     right: 0;
     
     &:hover {

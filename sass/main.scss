@@ -35,5 +35,17 @@
 
 @media screen and (min-width: 1366px) {
 
-  @import "./desktop/desktop-header.scss"; // header destop.
+  @import "./desktop/desktop-header.scss"; // header desktop.
+
+  @import "./desktop/desktop-features.scss"; // features desktop.
+
+  @import "./desktop/desktop-content1.scss"; // content 1 desktop.
+
+  @import "./desktop/desktop-content2.scss"; // content 2 desktop.
+
+
+
+  @import "./desktop/desktop-price.scss"; // price desktop.
+
+  @import "./desktop/desktop-footer.scss"; // footer destkop.
 }

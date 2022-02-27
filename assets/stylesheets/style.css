@@ -40,7 +40,7 @@ nav .navLinks {
   width: 500px;
   height: 475px;
   position: absolute;
-  top: 0;
+  top: -5px;
   left: 0;
   transform: translate(-78%, -3%);
   background-color: #192F48;
@@ -80,6 +80,7 @@ nav .navLinksContent {
   width: 25px;
   height: 12px;
   position: absolute;
+  top: 18px;
   right: 0;
 }
 nav .navLinksContent:hover .navLinks {
@@ -215,8 +216,9 @@ nav .hamburger {
   height: 100%;
 }
 .content1 .content1Container .content1Img {
+  width: 250px;
   height: 326px;
-  transform: translateY(-125px);
+  transform: translate(95px, -130px);
 }
 .content1 .content1Container .content1Main {
   margin: 0 auto;
@@ -678,6 +680,7 @@ footer .footerLinks .menuLinks ul li a:visited {
     border-radius: 3px;
     background-color: #e3eef8;
     color: #258aff;
+    cursor: pointer;
   }
   header .headerContainer {
     width: 652px;
@@ -741,6 +744,92 @@ footer .footerLinks .menuLinks ul li a:visited {
   footer .footerLinks {
     display: flex;
     justify-content: space-around;
+  }
+}
+@media screen and (min-width: 1366px) {
+  header {
+    width: 1100px;
+  }
+  header nav {
+    width: 1100px;
+  }
+  header nav .navLinksContent {
+    transform: translateX(-200px);
+  }
+
+  .headerContainer {
+    transform: scale(1.2);
+  }
+
+  .featuresContainer {
+    width: 1100px;
+  }
+
+  .content1 .content1Container {
+    transform: scale(1.25);
+    gap: 100px;
+  }
+
+  .content2 {
+    width: 1100px;
+  }
+
+  .content2Text {
+    width: 900px;
+    height: 490px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .content2Text h2 {
+    line-height: 1.3em;
+  }
+
+  .content2Boxes {
+    width: 300px;
+    flex-direction: row;
+    align-items: start;
+    gap: 150px;
+  }
+  .content2Boxes .content2Box {
+    align-items: flex-start;
+  }
+  .content2Boxes .content2Box h3 {
+    text-align: start;
+  }
+  .content2Boxes .content2Box p {
+    text-align: start;
+  }
+
+  .price {
+    height: 700px;
+  }
+  .price .priceHeader {
+    width: 100%;
+  }
+  .price .priceHeader h3 {
+    text-align: center;
+  }
+  .price .priceHeader p {
+    text-align: center;
+  }
+  .price .cardContent {
+    width: 725px;
+    flex-direction: row;
+  }
+
+  footer {
+    width: 1100px;
+    flex-direction: row;
+    margin: 38px auto 38px auto;
+  }
+  footer .footerMain {
+    width: 400px;
+    justify-content: space-around;
+    gap: 0;
+  }
+  footer .footerLinks {
+    gap: 100px;
   }
 }
 
