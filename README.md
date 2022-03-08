@@ -1,4 +1,4 @@
-# End of Field Challenge
+# THE FIELD | End of Field Challenge
 
 * Repository name : end-of-field-challenge
 * Mode : group of two people
