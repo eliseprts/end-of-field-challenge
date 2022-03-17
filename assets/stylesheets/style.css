@@ -19,7 +19,7 @@ header {
 
 .shadesLogo {
   margin-left: 10px;
-  background-image: url(/assets/images/logos/Logo.svg);
+  background-image: url(./assets/images/logos/Logo.svg);
   background-repeat: no-repeat;
   background-size: cover;
   width: 70px;
@@ -43,7 +43,7 @@ nav .navLinks {
   top: -5px;
   left: 0;
   transform: translate(-78%, -3%);
-  background-color: #192F48;
+  background-color: #192f48;
   z-index: 2;
 }
 nav .navLinks ul {
@@ -68,10 +68,10 @@ nav .navLinks ul li:hover {
 nav .navLinks ul li a {
   font-size: 16px;
   text-decoration: none;
-  color: #FFF;
+  color: #fff;
 }
 nav .navLinks ul li a:visited {
-  color: #FFF;
+  color: #fff;
 }
 nav .navLinks ul li a:hover {
   color: #258aff;
@@ -93,7 +93,7 @@ nav .hamburger {
   width: 25px;
   height: 12px;
   margin-top: 9px;
-  background-image: url(/assets/images/icons/Hamburger.svg);
+  background-image: url(./assets/images/icons/Hamburger.svg);
   background-repeat: no-repeat;
   background-size: contain;
   cursor: pointer;
@@ -187,7 +187,8 @@ nav .hamburger {
   width: 24px;
   height: 26px;
   margin-top: 3px;
-  filter: invert(44%) sepia(19%) saturate(7149%) hue-rotate(197deg) brightness(102%) contrast(101%);
+  filter: invert(44%) sepia(19%) saturate(7149%) hue-rotate(197deg)
+    brightness(102%) contrast(101%);
 }
 .featuresContent .featuresText {
   display: flex;
@@ -312,7 +313,8 @@ nav .hamburger {
   align-items: center;
 }
 .content2Boxes .content2Box .content2Icon img {
-  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(303deg) brightness(103%) contrast(101%);
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(303deg)
+    brightness(103%) contrast(101%);
 }
 .content2Boxes .content2Box h3 {
   width: 160px;
@@ -443,11 +445,11 @@ nav .hamburger {
   flex-direction: column;
   align-items: center;
   gap: 50px;
-  background-color: #192F48;
+  background-color: #192f48;
 }
 .price .priceHeader {
   width: 330px;
-  color: #FFF;
+  color: #fff;
 }
 .price .priceHeader p {
   margin-bottom: 25px;
@@ -508,7 +510,7 @@ nav .hamburger {
   display: flex;
   flex-direction: column;
   gap: 22px;
-  list-style-image: url(/assets/images/icons/check.svg);
+  list-style-image: url(./assets/images/icons/check.svg);
   margin-left: 25px;
 }
 .price .cardContent .priceCard ul li {
@@ -517,38 +519,38 @@ nav .hamburger {
 .price .cardContent .priceCard button {
   width: 181px;
   height: 30px;
-  background-color: #258AFF;
+  background-color: #258aff;
   border: none;
   border-radius: 5px;
   cursor: pointer;
   font-size: 12px;
   font-weight: 700;
-  color: #FFF;
+  color: #fff;
 }
 .price .cardContent .priceCard .creditCard {
   font-size: 12px;
   color: #666666;
 }
 .price .cardContent .priceCard .creditCard p:last-of-type {
-  color: #E5E5E5;
+  color: #e5e5e5;
 }
 .price .cardContent .darkCard {
-  background-color: #2B405A;
-  color: #FFF;
+  background-color: #2b405a;
+  color: #fff;
 }
 .price .cardContent .darkCard ul .active {
   text-decoration: line-through;
-  color: #878B90;
+  color: #878b90;
 }
 .price .cardContent .whiteCard {
-  background-color: #FFF;
+  background-color: #fff;
   position: relative;
 }
 .price .cardContent .whiteCard ul {
-  list-style-image: url(/assets/images/icons/darkCheck.svg);
+  list-style-image: url(./assets/images/icons/darkCheck.svg);
 }
 .price .cardContent .whiteCard button {
-  background-color: #FC593B;
+  background-color: #fc593b;
 }
 .price .cardContent .whiteCard .popularIcon {
   width: 64px;
@@ -560,12 +562,12 @@ nav .hamburger {
   top: 27px;
   right: 33px;
   border-radius: 13px;
-  background-color: #4EAB08;
+  background-color: #4eab08;
 }
 .price .cardContent .whiteCard .popularIcon p {
   font-size: 10px;
   text-transform: uppercase;
-  color: #FFF;
+  color: #fff;
 }
 
 footer {
