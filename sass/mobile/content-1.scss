@@ -1,26 +1,16 @@
 .content1 {
-  height: 693px;
+  height: 653px;
   background-color: #258aff;
 
   .content1Container {
     margin: 0 auto;
-    width: 330px;
+    width: auto;
     height: 100%;
 
     .content1Img {
-      margin: 0 auto 17px auto;
-      height: 330px;
-      width: 200px;
-
-      background-image: url(./assets/images/app-shot-01.svg);
-      background-repeat: no-repeat;
-      background-size: contain;
-
-      transform: scale(2);
-      z-index: 10;
-
-      position: relative;
-      top: 6px;
+      width: 250px;
+      height: 326px;
+      transform: translate(95px, -130px);
     }
 
     .content1Main {
@@ -29,6 +19,7 @@
 
       display: flex;
       flex-direction: column;
+
       gap: 12px;
 
       color: #fff;

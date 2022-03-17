@@ -18,15 +18,34 @@
 
 @import "./mobile/footer.scss"; // footer.
 
-@media screen and (max-width: 900px) {
-  // px a definir
-  @import "./tablet/tablet-header.scss";
+@media screen and (min-width: 768px) {
 
-  @import "./tablet/tablet-content1.scss";
+  @import "./tablet/tablet-header.scss"; // header tablet.
 
-  // @import '';
+  @import "./tablet/tablet-features.scss"; // features tablet.
 
-  @import "./tablet/tablet-price.scss";
+  @import "./tablet/tablet-content1.scss"; // content 1 tablet.
 
-  @import "./tablet/tablet-footer.scss";
+  @import "./tablet/tablet-content2.scss"; // content 2 tablet.
+
+  @import "./tablet/tablet-testimonial.scss"; // testimonial tablet.
+
+  @import "./tablet/tablet-footer.scss"; // footer tablet.
+}
+
+@media screen and (min-width: 1366px) {
+
+  @import "./desktop/desktop-header.scss"; // header desktop.
+
+  @import "./desktop/desktop-features.scss"; // features desktop.
+
+  @import "./desktop/desktop-content1.scss"; // content 1 desktop.
+
+  @import "./desktop/desktop-content2.scss"; // content 2 desktop.
+
+
+
+  @import "./desktop/desktop-price.scss"; // price desktop.
+
+  @import "./desktop/desktop-footer.scss"; // footer destkop.
 }
