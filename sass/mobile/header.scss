@@ -11,11 +11,12 @@ header {
 
 .shadesLogo {
   margin-left: 10px;
-  background-image: url(./assets/images/logos/Logo.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
   width: 70px;
   height: 18px;
+}
+
+.shadesLogo img {
+  width: 70px;
 }
 
 nav {
