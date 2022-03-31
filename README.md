@@ -6,7 +6,7 @@ _Repo created as part of the [BeCode web development training](https://becode.or
 * Mode : group of two people
 * Type of Challenge : consolidation
 * Duration : 3 days
-* GitHub Page : (https://eliseprts.github.io/end-of-field-challenge/)
+* [GitHub Page](https://eliseprts.github.io/end-of-field-challenge/)
 
 ## Group Members
 
