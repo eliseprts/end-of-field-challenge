@@ -1,10 +1,12 @@
 # THE FIELD | End of Field Challenge
 
+_Repo created as part of the [BeCode web development training](https://becode.org/fr/apprendre/developpeur-web-junior/)_
+
 * Repository name : end-of-field-challenge
 * Mode : group of two people
 * Type of Challenge : consolidation
 * Duration : 3 days
-* Deployment strategy : GitHub Pages
+* GitHub Page : (https://eliseprts.github.io/end-of-field-challenge/)
 
 ## Group Members
 
